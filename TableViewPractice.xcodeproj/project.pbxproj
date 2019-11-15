@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80434078237EFAEE00782CE7 /* newViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80434077237EFAEE00782CE7 /* newViewController.swift */; };
 		80DC0228237B035600C47EA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DC0227237B035600C47EA2 /* AppDelegate.swift */; };
 		80DC022A237B035600C47EA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DC0229237B035600C47EA2 /* SceneDelegate.swift */; };
 		80DC022C237B035600C47EA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DC022B237B035600C47EA2 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80434077237EFAEE00782CE7 /* newViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newViewController.swift; sourceTree = "<group>"; };
 		80DC0224237B035600C47EA2 /* TableViewPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DC0227237B035600C47EA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80DC0229237B035600C47EA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				80DC0229237B035600C47EA2 /* SceneDelegate.swift */,
 				80DC022B237B035600C47EA2 /* ViewController.swift */,
 				80DC022D237B035600C47EA2 /* Main.storyboard */,
+				80434077237EFAEE00782CE7 /* newViewController.swift */,
 				80DC0230237B035700C47EA2 /* Assets.xcassets */,
 				80DC0232237B035700C47EA2 /* LaunchScreen.storyboard */,
 				80DC0235237B035700C47EA2 /* Info.plist */,
@@ -141,6 +144,7 @@
 				80DC022C237B035600C47EA2 /* ViewController.swift in Sources */,
 				80DC0228237B035600C47EA2 /* AppDelegate.swift in Sources */,
 				80DC022A237B035600C47EA2 /* SceneDelegate.swift in Sources */,
+				80434078237EFAEE00782CE7 /* newViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

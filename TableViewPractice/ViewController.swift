@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var swiftTopicsTableView: UITableView!
     
+
+    
     let swiftTopics = ["Basic Operators", "Strings and Characters", "Collection Types", "Control Flow", "Functions",
                        "Closures", "Enumerations", "Structures and Classes", "Properties", "Methods", "Subscripts",
                        "Inheritance", "Initialization", "Deinitialization", "Optional Chaining", "Error Handling",
@@ -25,6 +27,18 @@ class ViewController: UIViewController {
         swiftTopicsTableView.dataSource = self
         
     }
+        
+        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            print("segue")
+            
+            guard let newVC = segue.destination as? newViewController,
+                let indexPath = swiftTopicsTableView.indexPathForSelectedRow else {
+                return 
+            }
+            
+            newVC.navigationItem.title = swiftTopics[indexPath.row]
+        }
+
     
 }
 
